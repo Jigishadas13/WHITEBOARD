@@ -15,6 +15,7 @@ for (let i = 0; i < toolsArr.length; i++) {
         const toolName = toolsArr[i].id;
         if (toolName == "pencil") {
             currentTool = "pencil";
+            tool.lineWidth= 3;
             tool.strokeStyle = "black";
             console.log("pencil clicked");
         }
